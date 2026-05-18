@@ -4,7 +4,7 @@ Set the column ratios to match your viewing needs. The default 3,5,4 is great fo
 This plugin allows all of that while leaving you in full control of how it's done by just being clever about adjusting the column ratio.
 
 # Syntax:
-# In keymap keymap.toml
+In keymap keymap.toml
 [[mgr.prepend_keymap]]
 on   = "<Keystroke>"
 run  = "plugin view-mode <column1> <column2> <column3>"
