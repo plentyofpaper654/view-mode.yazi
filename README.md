@@ -28,6 +28,7 @@ For mac-like finder viewing modes, I use the following.
 		{ on = "<C-0>",	run = "plugin view-mode 008", desc = "Quick Look" },
 ![Quicklook](https://github.com/user-attachments/assets/16b667d2-b072-427b-816c-78dae25d77f7)
 		{ on = "<C-1>",	run = 'shell -- rofi -theme fullscreen-preview -show filebrowser -filebrowser-command "ya emit reveal" -filebrowser-directory "$(pwd)"', desc = "Grid view" },
+![Icons View](https://github.com/user-attachments/assets/20b47963-843d-4721-bec1-fff09560f7e3)
 		{ on = "<C-2>",	run = "plugin view-mode 080", desc = "List View" },
 ![List View](https://github.com/user-attachments/assets/a8c63405-2f6e-49a8-b343-6df71341ce03)
 		{ on = "<C-3>",	run = "plugin view-mode 143", desc = "Columns View" },
@@ -36,6 +37,6 @@ For mac-like finder viewing modes, I use the following.
 ![Gallery View](https://github.com/user-attachments/assets/390f5166-1c75-4d88-8ba2-378dfde81ffe)
 	]
 
-Icons view is not handled by this plugin, but using Rofi for this is explained at https://yazi-rs.github.io/docs/tips.
+***Icons view is not handled by this plugin, but using Rofi for this is explained at https://yazi-rs.github.io/docs/tips.
 Gallery view is very space limited, so I set linemode to none in order to make the file names readable. You may or may not want to set specific linemodes for the other views.
 The sum of the digits doesn't have to add to 8, but I think it's a good idea to use a consistent number so things line up when regardless of your view mode.
