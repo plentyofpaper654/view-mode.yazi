@@ -26,10 +26,14 @@ For mac-like finder viewing modes, I use the following.
 	[manager]
 	prepend_keymap = [
 		{ on = "<C-0>",	run = "plugin view-mode 008", desc = "Quick Look" },
+![Quicklook](https://github.com/user-attachments/assets/16b667d2-b072-427b-816c-78dae25d77f7)
 		{ on = "<C-1>",	run = 'shell -- rofi -theme fullscreen-preview -show filebrowser -filebrowser-command "ya emit reveal" -filebrowser-directory "$(pwd)"', desc = "Grid view" },
 		{ on = "<C-2>",	run = "plugin view-mode 080", desc = "List View" },
+![List View](https://github.com/user-attachments/assets/a8c63405-2f6e-49a8-b343-6df71341ce03)
 		{ on = "<C-3>",	run = "plugin view-mode 143", desc = "Columns View" },
+![Columns View](https://github.com/user-attachments/assets/d76f3f33-1e66-453f-92e5-9cf7d00ef554)
 		{ on = "<C-4>", run = [ "plugin view-mode 026", "linemode none" ], desc = "Gallery View" },
+![Gallery View](https://github.com/user-attachments/assets/390f5166-1c75-4d88-8ba2-378dfde81ffe)
 	]
 
 Icons view is not handled by this plugin, but using Rofi for this is explained at https://yazi-rs.github.io/docs/tips.
